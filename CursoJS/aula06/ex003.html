@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body {
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(255, 212, 22);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição!</p>
+    <script>
+    /*        
+        var n1 = window.prompt('Digite um número: ') // String
+        var n2 = window.prompt('Digite outro número: ') // String
+        var s = n1 + n2 
+        window.alert('A some dos valores é ' + s) // Vai concatenar
+    */
+    // (number + number) para adição
+    // (String + String) para concatenação
+    
+    /*
+        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //Vai converter de String para número inteiro
+        var n2 = Number.parseInt(window.prompt('Digite outro número: ')) //Vai converter de String para número inteiro
+        var s = n1 + n2 
+        window.alert('A some dos valores é ' + s)
+    */
+
+    /*
+        var n1 = Number.parseFloat(window.prompt('Digite um número: ')) //Vai converter de String para número real
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: ')) //Vai converter de String para número real
+        var s = n1 + n2 
+        window.alert('A some dos valores é ' + s)
+    */
+    
+    /*
+        var n1 = Number(window.prompt('Digite um número: ')) //Vai converter de String para número inteiro ou real. Maneira recente do modelo EcmaScrip
+        var n2 = Number(window.prompt('Digite outro número: ')) //Vai converter de String para número inteiro ou real. Maneira recente do modelo EcmaScrip
+        var s = n1 + n2 
+        window.alert('A some dos valores é ' + s)
+    */
+    
+    /*
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2 
+        window.alert('A some dos valores é ' + s.toString()) //Vai converter de número inteiro ou real para String 
+    */
+    
+    /*
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2 
+        window.alert('A some dos valores é ' + String(s)) //Vai converter de número inteiro ou real para String 
+    */
+    
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2 
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) //Vai responder melhor com template string. Deixa o código mais bonito
+    </script>
+</body>
+</html>
