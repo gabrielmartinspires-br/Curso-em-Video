@@ -20,8 +20,10 @@
     <h1>Olá, Mundo!</h1>
     <p>Já me livrei da maldição!</p>
     <script>
-        var n1 = window.prompt('Digite um número')
-        var n2 = window.prompt('Digite outro número')
+        var n1 = Number(window.prompt('Digite um número'))
+        var n2 = Number(window.prompt('Digite outro número'))
+        var s = n1 + n2
+        window.alert('A soma do valor é ' + String(s))
     /*        
         var n1 = window.prompt('Digite um número: ') // String
         var n2 = window.prompt('Digite outro número: ') // String
